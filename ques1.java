@@ -5,7 +5,7 @@ class ques1 {
         int c = 0;
         while (n > 0) {
             int temp = n % 10;
-            n /= 10;
+            n =n/10;
             c++;
         }
         return c;
