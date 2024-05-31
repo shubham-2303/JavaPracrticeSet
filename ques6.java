@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ques6 {
-    public static boolean anag(String str) {
+    public static boolean anagram(String str) {
         str = str.toLowerCase();
 
         boolean[] present = new boolean[26];
@@ -29,7 +29,7 @@ public class ques6 {
          System.out.println("enter The String");
 
            String b=sc.next();
-        System.out.println(anag(b));
+        System.out.println(anagram(b));
         
         }
 }
